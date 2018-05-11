@@ -18,14 +18,13 @@
 Run the application using
  > ./mvnw spring-boot:run
 
-
 **STEP 2**
 Build the JAR file
  > ./mvnw clean package
 Run the JAR file
  > java -jar target/mtool-1.0.jar
  
-###### Launch up H2 DB Console at 
+## Launch up H2 DB Console at 
 http://localhost:8080/h2
 ```
 JDBC URL: jdbc:h2:~/mtool
@@ -33,5 +32,5 @@ User Name: sa
 Password:
 ```
 
-###### MTool web url
+## MTool Access URL
 http://localhost:8080
