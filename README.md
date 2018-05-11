@@ -15,12 +15,17 @@
  
 ## Build an executable JAR
 **STEP 1**
+
 Run the application using
  > ./mvnw spring-boot:run
 
+
+
 **STEP 2**
+
 Build the JAR file
  > ./mvnw clean package
+
 Run the JAR file
  > java -jar target/mtool-1.0.jar
  
