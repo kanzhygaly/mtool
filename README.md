@@ -14,14 +14,12 @@
  - H2 Database [latest](http://www.h2database.com)
  
 ## Build an executable JAR
-**STEP 1**
+###### STEP 1
 
 Run the application using
  > ./mvnw spring-boot:run
 
-
-
-**STEP 2**
+###### STEP 2
 
 Build the JAR file
  > ./mvnw clean package
