@@ -1,6 +1,7 @@
 # MTool
 
-**MTool** is a Personal Task Management Tool, developed as an example which has the following functionality:
+**MTool** is a Personal Task Management Tool.
+It was developed as an example and has the following functionality:
  - Personal task management tool (task name, description, status, time added, time finished)
  - Adding/changing/deleting tasks
  - Mark tasks done
