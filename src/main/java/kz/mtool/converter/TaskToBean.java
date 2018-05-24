@@ -3,6 +3,7 @@ package kz.mtool.converter;
 import kz.mtool.bean.TaskBean;
 import kz.mtool.domain.Task;
 import org.springframework.core.convert.converter.Converter;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,8 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class TaskToBean implements Converter<Task, TaskBean> {
 
-    @Override
-    public TaskBean convert(Task task) {
+    @Override    
+    public TaskBean convert(@NonNull Task task) {
         TaskBean bean = new TaskBean();
         bean.setId(task.getId());
         bean.setName(task.getName());
